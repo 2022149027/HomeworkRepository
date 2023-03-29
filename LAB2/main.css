@@ -1,0 +1,68 @@
+h1 {
+  font-size: 2.5em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.black_line {
+  border: 2px solid #333;
+  width: 400px;
+}
+
+.button_link > a {
+  text-decoration: none;
+  color: #333;
+}
+
+.button_link > a:hover {
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+}
+
+.flex-right {
+  display: flex;
+}
+
+.button_click {
+  box-sizing: border-box;
+  width: 80px;
+  height: 30px;
+  border: 2px solid black;
+  background-color: aquamarine;
+}
+
+.button_click:hover {
+  font-weight: 600;
+}
+
+.button_reset {
+  background-color: red;
+}
+
+.button_move {
+  font-size: 14px;
+  background-color: red;
+  text-align: center;
+  padding-top: 4px;
+  margin: auto auto auto 10px;
+}
+
+.button_move > a {
+  text-decoration: none;
+  color: #333;
+}
+
+.list-none {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+
+.list-none li {
+  margin-right: 10px;
+}
