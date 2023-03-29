@@ -20,7 +20,7 @@
         </ul>
         <div class="black_line"></div>
         <p>개인정보 (필수)</p>
-        <form action="">
+        <form method="post" autocomplete="on" action="login.html">
             <p><label>이름: <input type="text" placeholder="이름을 입력하세요" required autofocus></label ></p>
             <fieldset>
                 <legend>성별: </legend>
@@ -41,18 +41,14 @@
             <p><label>유저 아이디: <input type="text"  placeholder="아이디를 입력하세요" required></label></p>
             <p><label>비밀번호: <input type="password" placeholder="비밀번호를 입력하세요" required></label></p>
             <p><label>비밀번호 확인: <input type="password" placeholder="비밀번호 확인" required></label></p>
-            <p>
-                <lable>
+            <p><lable>
                     <input type="checkbox" name="accept_1">
                     (필수)개인정보 수집 이용 동의서
-                </lable>
-            </p>
-            <p>
-                <lable>
+                </lable></p>
+            <p><lable>
                     <input type="checkbox" name="accept_2">
                     (필수)홍보 및 마케팅 수집 이용 동의서
-                </lable>
-            </p>
+                </lable></p>
             <p>
                 <input class="button_click" type="submit" value="Signup">
                 <input class="button_click button_reset" type="reset" value="Cancel">
