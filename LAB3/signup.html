@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 페이지</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="h1_title">Welcome to Internet-Programming Shop</h1>
+        <nav class="display_center">
+            <ul class="list-none">
+                <li>
+                    <p class="button_link"><a href="index.html">메인페이지</a></p>
+                </li>
+                <li>
+                    <p class="button_link"><a href="login.html">로그인</a></p>
+                </li>
+                <li>
+                    <p class="button_link"><a href="signup.html">회원가입</a></p>
+                </li>
+            </ul>
+        </nav>
+        <div class="black_line"></div>
+        <p>개인정보 (필수)</p>
+        <form method="get" autocomplete="on" action="login.html">
+            <p><label>이름: <input type="text" placeholder="이름을 입력하세요" required autofocus></label ></p>
+            <fieldset>
+                <legend>성별: </legend>
+                <label>
+                    <input type="radio" value="male" name="sex" checked>
+                    남성
+                </label>
+                <label>
+                    <input type="radio" value="female" name="sex">
+                    여성
+                </label>
+            </fieldset>
+            <p><label>생일: <input name="birth" type="date" required></label></p>
+            <p><label>학년: <input name="number" type="number" min="0" max="6" step="1" value="0" required></label></p>
+            <p><label>전화번호: <input name="tel" type="tel" placeholder="###-####-####" pattern="\d{3}-\d{4}-\d{4}" autocomplete="tel
+                " required></label></p>
+            <p><label>이메일: <input name="email" type="email" placeholder="name@domain.com" autocomplete="email" required></label></p>
+            <p><label>유저 아이디: <input type="text"  placeholder="아이디를 입력하세요" required></label></p>
+            <p><label>비밀번호: <input type="password" placeholder="비밀번호를 입력하세요" required></label></p>
+            <p><label>비밀번호 확인: <input type="password" placeholder="비밀번호 확인" required></label></p>
+            <p><label>
+                    <input type="checkbox" name="accept_1">
+                    (필수)개인정보 수집 이용 동의서
+                </label></p>
+            <p><label>
+                    <input type="checkbox" name="accept_2">
+                    (필수)홍보 및 마케팅 수집 이용 동의서
+                </label></p>
+            <p>
+                <input class="button_click" type="submit" value="Signup">
+                <input class="button_click button_reset" type="reset" value="Cancel">
+            </p>
+        </form>
+        <div class="black_line"></div>
+    </div>
+</body>
+</html>
