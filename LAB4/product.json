@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Python Deep Learning with Python",
+        "type": "python",
+        "imageURL":"./images/DL.jpg",
+        "price": 9.75
+    },
+    {
+        "name": "Python: Deep Learning from Scratch",
+        "type": "python",
+        "imageURL":"./images/DL2.jpg",
+        "price": 10
+    },
+    {
+        "name": "게임 제작으로 배우는 유니티",
+        "type": "game",
+        "imageURL":"./images/unity.jpg",
+        "price": 10
+    },
+    {
+        "name": "게임 캐릭터부터 메타버스 아이템까지 블렌더 3D",
+        "type": "game",
+        "imageURL":"./images/blender.jpg",
+        "price": 14
+    },
+    {
+        "name": "혼자 공부하는 머신러닝 + 딥러닝",
+        "type": "python",
+        "imageURL":"./images/ML.jpg",
+        "price": 14
+    },
+    {
+        "name": "C언어 입문",
+        "type": "c",
+        "imageURL":"./images/C.jpg",
+        "price": 15
+    },
+    {
+        "name": "Java의 정석",
+        "type": "java",
+        "imageURL":"./images/java.jpg",
+        "price": 17.7
+    },
+    {
+        "name": "점프 투 파이썬",
+        "type": "python",
+        "imageURL":"./images/python.jpg",
+        "price": 8.8
+    },
+    {
+        "name": "웹 개발자를 위한 자바스크립트의 모든 것",
+        "type": "javascript",
+        "imageURL":"./images/javascript.jpg",
+        "price": 19
+    },
+    {
+        "name": "Node.js 교과서",
+        "type": "javascript",
+        "imageURL":"./images/node.jpg",
+        "price": 13.5
+    },
+    {
+        "name": "스프링 코딩 공작소",
+        "type": "java",
+        "imageURL":"./images/spring.jpg",
+        "price": 12
+    },
+    {
+        "name": "Javascript: The Good Parts",
+        "type": "javascript",
+        "imageURL": "./images/javascript_goodpart.png",
+        "price": 16.7
+    },
+    {
+        "name": "Javascript: The Definitive Guide",
+        "type": "javascript",
+        "imageURL": "./images/jacascript_definitiveGuide.jpg",
+        "price": 15
+    }
+]
